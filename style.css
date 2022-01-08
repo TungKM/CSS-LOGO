@@ -18,9 +18,7 @@
     height: 270px;
     background: #ea001b;
     border-radius: 100%;
-    /* display: flex; */
-    align-items: center;
-    padding-left: 50px;
+    position: relative;
 }
 
 .right-circle {
@@ -28,36 +26,18 @@
     height: 270px;
     background: #f79f1a;
     border-radius: 100%;
-    /* display: flex; */
-    align-items: center;
-    padding-right:50px;
-}
-
-/* .insta-inner {
-    width: 200px;
-    height: 200px;
-    border: 18px solid #fff;
-    border-radius: 54px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
+    right: 100px;
+    overflow: hidden;
 }
 
-.insta-inner2{
-    width: 100px;
-    height: 100px;
-    border: 18px solid #fff;
-    border-radius: 50%;
+.inner-circle {
+    width: 270px;
+    height: 270px;
+    background: #ff5f01;
+    border-radius: 100%;
+    position: relative;
+    right: 170px;
+
 }
 
-.insta-inner::after {
-    content: '';
-    background: #fff;
-    width: 22px;
-    height:22px;
-    border-radius: 50%;
-    position: absolute;
-    top: 15px;
-    right: 15px;
-} */
