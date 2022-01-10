@@ -2,42 +2,125 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #fff;
 }
 
 .container {
+    position: relative;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    background-color: #fff;
+
+    overflow: hidden; /* cover the extra part */
+}
+
+.html-mid-space{ /* mid empty circle */
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 4;
+
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;         /*location adjusting */
+    margin: auto; /*auto centrailize element*/   
+}
+
+.html-side-space{
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 25%; /* shape creation*/
+    background-color: #fff;
+    z-index: 3;
+
+    right: -90px;
+    top: 130px;
+
+    transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg); 
+}
+
+.red{
     width: 100%;
-    height: 100vh;
-    background: #f0efeb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 50%;
+    position: absolute;
+    background: #ca4b3a;
+    z-index: 1;
 }
 
-.left-circle {
-    width: 270px;
-    height: 270px;
-    background: #ea001b;
-    border-radius: 100%;
-    position: relative;
+.green {
+    background: #68a851;
+    position: absolute;
+    width: 85%;
+    height: 40%;
+    z-index: 1;
+    
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 
-.right-circle {
-    width: 270px;
-    height: 270px;
-    background: #f79f1a;
-    border-radius: 100%;
-    position: relative;
-    right: 100px;
-    overflow: hidden;
+
+.yellow {
+    background: #e9bf08;
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    z-index: 2;
+    
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -80px;
+
+    transform: rotateZ(-48deg); 
+    -webkit-transform: rotateZ(-48deg);
 }
 
-.inner-circle {
-    width: 270px;
-    height: 270px;
-    background: #ff5f01;
-    border-radius: 100%;
-    position: relative;
-    right: 170px;
+.blue {
+    background: #607ff4;
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    z-index: 2;
+    
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: -80px;
 
+    transform: rotateZ(-48deg); 
+    -webkit-transform: rotateZ(-48deg);
 }
+
+
+.line {
+    background: #607ff4;
+    position: absolute;
+    width: 50%;
+    height: 23%; /* shape creation*/
+
+    right: 0;
+    bottom: 0;
+    top: 0;       /*location adjusting */
+    margin: auto; /*auto centrailize element*/
+
+    z-index: 5; /*just a random high number*/
+
+    border-top-right-radius: 5px 50px;
+    border-bottom-right-radius: 5px 50px;  
+}
+
+
+
 
