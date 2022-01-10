@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #d3d3d3;
+    background-color: #fff;
 }
 
 .container {
@@ -14,7 +14,8 @@
     height: 500px;
     border-radius: 250px;
     background-color: #fff;
-    
+
+    overflow: hidden; /* cover the extra part */
 }
 
 .html-mid-space{ /* mid empty circle */
@@ -23,8 +24,8 @@
     width: 60%;
     height: 60%;
     border-radius: 50%;
-    background-color: #000;
-    z-index: 1;
+    background-color: #fff;
+    z-index: 4;
 
     right: 0;
     left: 0;
@@ -38,8 +39,8 @@
     content: '';
     width: 50%;
     height: 25%; /* shape creation*/
-    background-color: #404040;
-    z-index: 2;
+    background-color: #fff;
+    z-index: 3;
 
     right: -90px;
     top: 130px;
@@ -48,34 +49,78 @@
     -webkit-transform: rotateZ(45deg); 
 }
 
+.red{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background: #ca4b3a;
+    z-index: 1;
+}
+
+.green {
+    background: #68a851;
+    position: absolute;
+    width: 85%;
+    height: 40%;
+    z-index: 1;
+    
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+
+.yellow {
+    background: #e9bf08;
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    z-index: 2;
+    
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -80px;
+
+    transform: rotateZ(-48deg); 
+    -webkit-transform: rotateZ(-48deg);
+}
+
+.blue {
+    background: #607ff4;
+    position: absolute;
+    width: 45%;
+    height: 45%;
+    z-index: 2;
+    
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: -80px;
+
+    transform: rotateZ(-48deg); 
+    -webkit-transform: rotateZ(-48deg);
+}
+
+
 .line {
     background: #607ff4;
     position: absolute;
     width: 50%;
-    height: 20%; /* shape creation*/
+    height: 23%; /* shape creation*/
 
     right: 0;
     bottom: 0;
     top: 0;       /*location adjusting */
     margin: auto; /*auto centrailize element*/
 
-    z-index: 15; /*just a random high number*/
+    z-index: 5; /*just a random high number*/
 
     border-top-right-radius: 5px 50px;
     border-bottom-right-radius: 5px 50px;  
 }
 
-.yellow {
-    background: #e9bf08;
-    position: absolute;
-    width: 50%;
-    height: 20%;
-    
-    top: 0;
-    bottom: 0;
-    margin: auto;
 
-    transform: rotateZ(90deg); 
-    -webkit-transform: rotateZ(90deg);
-}
+
 
