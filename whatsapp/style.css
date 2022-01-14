@@ -18,7 +18,7 @@
     width: 500px;
     height: 500px;
     border-radius: 250px;
-    background-color: grey;
+    background-color: #fff;
 
     overflow: hidden;
 }
@@ -131,4 +131,90 @@
     margin-left: 48%;
 
     transform: rotate(45deg);
+}
+
+.html-top-white{
+    position: absolute;
+    width: 38px;
+    height: 30px;
+    background-color: #fff;
+    z-index: 4;
+
+
+    margin-top: 30%;
+    margin-left: 35%;
+}
+
+.html-top-white-side{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    background-color: #fff;
+    z-index: 4;
+
+
+    margin-top: 33%;
+    margin-left: 42%;
+
+    transform: rotate(70deg);
+}
+
+.html-btm-white {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    background-color: #fff;
+    z-index: 4;
+
+
+    margin-top: 52%;
+    margin-left: 58%;
+
+    transform: rotate(30deg);
+}
+
+.border1 {
+    position: absolute;
+    width: 35.6px;
+    height: 10px;
+    background-color: green;
+    z-index:5;
+
+    margin-top: 35.5%;
+    margin-left: 35.5%;
+
+    border-top-right-radius: 43.75%;
+    border-top-left-radius: 43.75%;
+}
+
+.border2 {
+    position: absolute;
+    width: 35px;
+    height: 10px;
+    background-color: green;
+    z-index:5;
+
+    margin-top: 38.25%;
+    margin-left: 39.50%;
+
+    border-top-right-radius: 37.5%;
+    border-top-left-radius: 43.75%;
+
+    transform: rotate(70deg);
+}
+
+.border3 {
+    position: absolute;
+    width: 37.5px;
+    height: 10px;
+    background-color: green;
+    z-index:5;
+
+    margin-top: 56.9%;
+    margin-left: 58.7%;
+
+    border-top-right-radius: 37.5%;
+    border-top-left-radius: 43.75%;
+
+    transform: rotate(30deg);
 }
