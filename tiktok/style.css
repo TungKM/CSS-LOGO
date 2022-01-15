@@ -18,3 +18,138 @@
 
     overflow: hidden;
 }
+
+.html-gradient-rectangular{
+    position: absolute;
+    height: 180px;
+    width: 50px;
+    background-color: #ff3300;
+    z-index: 0;
+
+    margin-top: 21%;
+    margin-left: 58%;
+}
+
+.html-orange-top-circle{
+    position: absolute;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background-color: #ff3300;
+    z-index: 0;
+
+    margin-top: 6%;
+    margin-left: 58%;
+}
+
+.html-gradient-btm-circle{
+    position: absolute;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #ff3300 35%, #ff0050 100%);
+    z-index: 0;
+
+    margin-top: 41%;
+    margin-left: 33%;
+}
+
+.html-bspace-top-square {
+    position: absolute;
+    height: 80px;
+    width: 100px;
+    background-color: white;
+    z-index: 2;
+
+    margin-top: 2%;
+    margin-left: 55%;
+}
+
+.html-bspace-top-circle {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 2;
+
+    margin-top: 0%;
+    margin-left: 62%;
+}
+
+.html-bspace-right-square {
+    position: absolute;
+    height: 100px;
+    width: 70px;
+    background-color: white;
+    z-index: 2;
+
+    margin-top: 20%;
+    margin-left: 77%;
+}
+
+
+.html-black-rectangular{
+    position: absolute;
+    height: 180px;
+    width: 50px;
+    background-color: black;
+    z-index: 1;
+
+    margin-top: 18%;
+    margin-left: 55%;
+}
+
+.html-black-top-circle{
+    position: absolute;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 1;
+
+    margin-top: 3%;
+    margin-left: 55%;
+}
+
+.html-black-btm-circle{
+    position: absolute;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 1;
+
+    margin-top: 38%;
+    margin-left: 30%;
+}
+
+
+
+
+
+
+
+/* .html-blue-top-rectangular{
+    position: absolute;
+    height: 15px;
+    width: 51.5px;
+    background-color: #04f1e9;
+    z-index: 3;
+
+    margin-top: 15%;
+    margin-left: 52%;
+
+    border-top-right-radius: 10%;
+}
+
+.html-blue-mid-rectangular{
+    position: absolute;
+    height: 180px;
+    width: 15px;
+    background-color: #04f1e9;
+    z-index: 3;
+
+    margin-top: 15%;
+    margin-left: 52%;
+} */
