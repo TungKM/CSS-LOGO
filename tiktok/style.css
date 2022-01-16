@@ -14,7 +14,7 @@
     width: 500px;
     height: 500px;
     border-radius: 250px;
-    background-color: grey;
+    background-color: white;
 
     overflow: hidden;
 }
@@ -38,8 +38,8 @@
     background-color: #ff3300;
     z-index: 0;
 
-    margin-top: 6%;
-    margin-left: 58%;
+    margin-top: 5%;
+    margin-left: 59%;
 }
 
 .html-gradient-btm-circle{
@@ -80,12 +80,12 @@
 .html-bspace-right-square {
     position: absolute;
     height: 100px;
-    width: 70px;
+    width: 100px;
     background-color: white;
     z-index: 2;
 
     margin-top: 20%;
-    margin-left: 77%;
+    margin-left: 76%;
 }
 
 
@@ -124,17 +124,104 @@
     margin-left: 30%;
 }
 
+.html-blue-btm-circle{
+    position: absolute;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background-color: #00f2ea;
+    z-index: 0;
 
+    margin-top: 35%;
+    margin-left: 27%;
+}
 
+.html-orange-right-rectangular {
+    position: absolute;
+    height: 50.5px;
+    width: 15px;
+    background-color: #ff3300;
+    z-index: 3;
 
+    margin-top: 29.8%;
+    margin-left: 75%;
+}
 
+.html-orange-right-circle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #ff3300;
+    border-radius: 50%;
+    z-index: 3;
 
+    margin-top: 8%;
+    margin-left: 62%;
+}
 
-/* .html-blue-top-rectangular{
+.html-ospace-right-circle {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 3;
+
+    margin-top: 1%;
+    margin-left: 63.5%;
+}
+
+.html-ospace-top-rectangular {
+    position: absolute;
+    height: 40.25px;
+    width: 22px;
+    background-color: white;
+    z-index: 3;
+
+    margin-top: 10%;
+    margin-left: 60%;
+}
+
+.html-blue-top-circle{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #00f2ea;
+    z-index: 3;
+
+    margin-top: 11%;
+    margin-left: 66%;
+}
+
+.html-bspace-top-circle{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 4;
+
+    margin-top: 9.2%;
+    margin-left: 64%;
+}
+
+.html-bspace-right-rectangular{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    z-index: 4;
+
+    margin-top: 11%;
+    margin-left: 75%;
+}
+
+.html-blue-top-rectangular{
     position: absolute;
     height: 15px;
-    width: 51.5px;
-    background-color: #04f1e9;
+    width: 50px;
+    background-color: #00f2ea;
     z-index: 3;
 
     margin-top: 15%;
@@ -145,11 +232,94 @@
 
 .html-blue-mid-rectangular{
     position: absolute;
-    height: 180px;
+    height: 215px;
     width: 15px;
-    background-color: #04f1e9;
+    background-color: #00f2ea;
     z-index: 3;
 
     margin-top: 15%;
     margin-left: 52%;
-} */
+}
+
+.html-blue-mid-circle {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #00f2ea;
+    z-index: 3;
+
+    margin-top: 50%;
+    margin-left: 39%;
+}
+
+.html-gradient-mid-circle {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #ff3300 0%, #ff0050 35%);
+    z-index: 3;
+
+    margin-top: 47%;
+    margin-left: 36%;
+}
+
+.html-gradient-mid-rectangular{
+    position: absolute;
+    height: 50px;
+    width: 15px;
+    background-color: #ff3300;
+    z-index: 3;
+
+    margin-top: 38%;
+    margin-left: 45%;
+}
+
+.html-space-mid-oval {
+    position: absolute;
+    height: 80px;
+    width: 70px;
+    border-radius: 50%;
+    background: white;
+    z-index: 4;
+
+    margin-top: 48%;
+    margin-left: 38%;
+
+    transform: rotate(45deg);
+}
+
+.html-space-top-rectangular {
+    position: absolute;
+    height: 205px;
+    width: 22.5px;
+    background: white;
+    z-index: 4;
+
+    margin-top: 15%;
+    margin-left: 48%;
+
+}
+
+.html-space-mid-rectangular {
+    position: absolute;
+    height: 16px;
+    width: 22.5px;
+    background: white;
+    z-index: 5;
+
+    margin-top: 35%;
+    margin-left: 45%;
+}
+
+.html-space-top-right-overflow {
+    position: absolute;
+    height: 70px;
+    width: 1000px;
+    background: white;
+    z-index: 10;
+
+    margin-top: 0%;
+    margin-left: 0%;
+}
