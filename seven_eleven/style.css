@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+
+    overflow: hidden;
+}
+
+.orange {
+    position: absolute;
+    height: 110px;
+    width: 300px;
+    background-color: #ff6c00;
+    z-index: 1;
+
+    margin-top: 10%;
+    margin-left: 15%;
+
+}
+
+.whiteOrange {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: grey;
+    z-index: 2;
+
+    margin-top: 7%;
+    margin-left: 40%;
+}
+
+.redCircle {
+
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: #eb0f2a;
+    z-index: 3;
+
+    margin-top: 7%;
+    margin-left: 40%;
+}
