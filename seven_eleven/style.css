@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+h2 {
+    position: absolute;
+    background-color: transparent;
+    font-weight: 900;
+}
+
+.container {
+    position: relative;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 500px;
+    width: 500px;
+    background-color: white;
+
+    overflow: hidden;
+}
+
+.orange {
+    position: absolute;
+    height: 110px;
+    width: 300px;
+    background-color: #ff6c00;
+    z-index: 1;
+
+    margin-top: 10%;
+    margin-left: 15%;
+
+}
+
+.whiteOrange {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 2;
+
+    margin-top: 7%;
+    margin-left: 40%;
+}
+
+.redCircle {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: #eb0f2a;
+    z-index: 3;
+
+    margin-top: 7%;
+    margin-left: 40%;
+}
+
+.whiteRedCircle {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 4;
+
+    margin-top: 20%;
+    margin-left: 62%;
+}
+
+.whiteRedTop {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    z-index: 4;
+
+    margin-top: 0%;
+    margin-left: 80%;
+}
+
+.whiteRedMid {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    z-index: 4;
+
+    margin-top: 59%;
+    margin-left: 0%;
+}
+
+.capitalLetter {
+    position: absolute;
+    background: transparent;
+    color: #147350;
+    z-index: 4;
+    font-size: 50px;
+    font-family: 'Ruda', sans-serif;
+
+    margin-top: 58%;
+    margin-left: 15%;
+}
+
+.lowerLetter{
+    position: absolute;
+    background: transparent;
+    color: #147350;
+    z-index: 4;
+    font-size: 70px;
+    font-family: 'Ruda', sans-serif;
+
+    margin-top: 51.5%;
+    margin-left: 69%;
+}
+
+.redSquare {
+    position: absolute;
+    height: 80px;
+    width: 110px;
+    background-color: #eb0f2a;
+    z-index: 5;
+
+    margin-top: 78%;
+    margin-left: 41%; 
+}
