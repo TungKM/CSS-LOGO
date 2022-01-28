@@ -5,9 +5,10 @@
     background-color: white;
 }
 
-header {
-    background-color: red ;
-    font-size: 500px;
+h2 {
+    position: absolute;
+    background-color: transparent;
+    font-weight: 900;
 }
 
 .container {
@@ -18,7 +19,7 @@ header {
 
     height: 500px;
     width: 500px;
-    background-color: grey;
+    background-color: white;
 
     overflow: hidden;
 }
@@ -40,7 +41,7 @@ header {
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    background-color: grey;
+    background-color: white;
     z-index: 2;
 
     margin-top: 7%;
@@ -48,7 +49,6 @@ header {
 }
 
 .redCircle {
-
     position: absolute;
     height: 500px;
     width: 500px;
@@ -61,12 +61,11 @@ header {
 }
 
 .whiteRedCircle {
-
     position: absolute;
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    background-color: grey;
+    background-color: white;
     z-index: 4;
 
     margin-top: 20%;
@@ -74,11 +73,10 @@ header {
 }
 
 .whiteRedTop {
-
     position: absolute;
     height: 500px;
     width: 500px;
-    background-color: grey;
+    background-color: white;
     z-index: 4;
 
     margin-top: 0%;
@@ -89,7 +87,7 @@ header {
     position: absolute;
     height: 300px;
     width: 500px;
-    background-color: grey;
+    background-color: white;
     z-index: 4;
 
     margin-top: 59%;
@@ -98,12 +96,35 @@ header {
 
 .capitalLetter {
     position: absolute;
-    background-color: red;
-    color: green;
+    background: transparent;
+    color: #147350;
+    z-index: 4;
+    font-size: 50px;
+    font-family: 'Ruda', sans-serif;
+
+    margin-top: 58%;
+    margin-left: 15%;
+}
+
+.lowerLetter{
+    position: absolute;
+    background: transparent;
+    color: #147350;
     z-index: 4;
     font-size: 70px;
     font-family: 'Ruda', sans-serif;
 
-    margin-top: 59%;
-    margin-left: 20%;
+    margin-top: 51.5%;
+    margin-left: 69%;
+}
+
+.redSquare {
+    position: absolute;
+    height: 80px;
+    width: 110px;
+    background-color: #eb0f2a;
+    z-index: 5;
+
+    margin-top: 78%;
+    margin-left: 41%; 
 }
